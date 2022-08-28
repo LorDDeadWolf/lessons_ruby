@@ -1,0 +1,16 @@
+.bold_css {
+    font-weight: bold;
+}
+
+.italic_css {
+    font-style: italic;
+}
+
+.ul_non {
+    list-style-type: none;
+}
+
+.ol_colors {
+    color: white;
+    background: red
+}
