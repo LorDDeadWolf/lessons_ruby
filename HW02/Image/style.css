@@ -1,29 +1,24 @@
-/*body {
-    background-image: "img/bg.jpg";
+body {
+    background-image: url("img/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;  
-    background-size: cover;
-  }*/
+    background-size: 600px 400px;
+  }
 .composition{
-    position: static;
-    background-image: "img/bg.jpg";
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+    position: relative;
+    width: 600px;
+    height: 400px;
 }  
-/* .background {
-    position: static;
-    z-index: -1;
-} */
+
 .first {
     position: absolute;
-    top: 10px;
-    left: 450px;
+    top: 20px;
+    left: 460px;
     z-index: 7;
 }
 .second {
     position: absolute;
-    top: 80px;
+    top: 140px;
     left: 430px;
     z-index: 6;
 }
@@ -51,16 +46,9 @@
     left: 50px;
     z-index: 2;
 }
-/* .seventh {
-    position: absolute;
-    bottom: 0px;
-    right: 20px;
-    z-index: 1;
-} Оно должно привязываться к ближайшему статичному объекту,
-фону, либо к параметрам обзаца, но у меня не работает */
 .seventh {
     position: absolute;
-    top: 335px;
-    left: 520px;
+    bottom: 10px;
+    right: 20px;
     z-index: 1;
-}
+} 
